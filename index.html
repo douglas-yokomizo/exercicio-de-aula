@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício jQuery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Galeria de fotos</h1>
+      <button type="submit">Nova imagem +</button>
+    </header>
+    <form>
+      <input id="endereco-nova-imagem" type="url" placeholder="URL da imagem" />
+      <button type="submit">Adicionar</button>
+      <button type="reset" id="botao-cancelar">Cancelar</button>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="main.js"></script>
+    <ul>
+      <li>
+        <img src="./images/foto1.jpg" alt="Pintura de gato" />
+        <div class="overlay-link">
+          <a
+            href="./images/foto1.jpg"
+            target="_blank"
+            title="Ver imagem em tamanho real"
+            >Ver imagem em tamanho real</a
+          >
+        </div>
+      </li>
+      <li>
+        <img src="./images/foto2.jpg" alt="Flamingo" />
+        <div class="overlay-link">
+          <a
+            href="./images/foto2.jpg"
+            target="_blank"
+            title="Ver imagem em tamanho real"
+            >Ver imagem em tamanho real</a
+          >
+        </div>
+      </li>
+      <li>
+        <img src="./images/foto3.jpg" alt="Filhotes de cachorro na mochila" />
+        <div class="overlay-link">
+          <a
+            href="./images/foto3.jpg"
+            target="_blank"
+            title="Ver imagem em tamanho real"
+            >Ver imagem em tamanho real</a
+          >
+        </div>
+      </li>
+    </ul>
+  </body>
+</html>
